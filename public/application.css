@@ -43,7 +43,7 @@ body, html {
 }
 
 #content_main {
- 	height: 1050px;
+ 	height: 100%;
 	width: 75%;
 	margin-right: 13%;
 	margin-left: 13%;
@@ -52,13 +52,19 @@ body, html {
 
 #content_main p {
 	padding: 5px 7px;
+	width: 78%
 }
 
-table a {
-	visibility: hidden;	
+#content_landing img {
+	width: 30%;
+	padding: 5px 5px;
+}
+
+#content_table {
+	height: 1150px;
 	background-color: white;
-
 }
+
 
 table{
 	width: 100%;
@@ -73,8 +79,37 @@ tr {
  	width: 24%;
  	margin: 0px 0px;
  	padding: 0px 0px;
-
  }
+
+ td img {
+ 	width: 140px;
+ 	height: 110px;
+ 	-webkit-transition-property: width, height;
+    -webkit-transition-duration: 1.5s;
+ }
+
+.shoe_block img:active {
+	width: 300px;
+	height: 200px;
+	-webkit-transition-property: height, width;
+	-webkit-transition-duration: 1.5s;
+}
+
+.shoe_block p {
+	display: none;
+	font-size: 14px;
+}
+
+.shoe_block:active p {
+	clear: both;
+	display:block;
+}
+
+
+
+
+
+
 
 
 
