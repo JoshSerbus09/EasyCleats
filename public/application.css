@@ -31,10 +31,10 @@ body, html {
 
 #nav a {
 	display: inline;
-	width: 33%;
+	width: 23%;
 	text-decoration: none;
 	background-color: white;
-	padding: 2px 13% 2px 13%;
+	padding: 2px 9% 2px 9%;
 }
 
 #nav a:hover {
